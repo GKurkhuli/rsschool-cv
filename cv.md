@@ -1,6 +1,6 @@
 # **Giorgi Kurkhuli**
 
-## ***giorgi.kurkhuli1@gmail.com    +995 597 21 06 11***
+## ***[giorgi.kurkhuli1@gmail.com](mailto:giorgi.kurkhuli1@gmail.com)       (+995) 597 21 06 11***
 
 
 #### *As a Bachelor of Computer Engineering, I had to learn both, hardware and software, gaining experience and a deeper interest in these fields. Although I don't have working experience in front-end development, since I know several programming languages, I'm positive about quickly gaining the necessary skills for the job.*
