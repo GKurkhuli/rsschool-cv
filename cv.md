@@ -58,4 +58,4 @@ Throughout the course I studied multiple programming languages, computer archite
 *  As a Senior Design project for Bachelors’ Degree my team worked on “Multi-Profile Abdominal Cavity Diagnostics Simulator”. Using Arduino Pro Micro as a controller, we collected data from air pressure sensors, distributed throughout the MOULAGE, and according to the predetermined symptoms computer program simulated reaction for further diagnostics. This device could be used as an inexpensive training tool for medical students.
 
 
-*At San Diego State University in Georgia, all lectures were conducted in English, on the other hand, during my Master's studies, all materials were in English and since my stay in Germany, I had to communicate in English as well, I think, **I am proficient in this language***
+### *At San Diego State University in Georgia, all lectures were conducted in English, on the other hand, during my Master's studies, all materials were in English and since my stay in Germany, I had to communicate in English as well, I think, **I am proficient in this language***
