@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{font-size: 100%;}
+
+body{
+    width: 70%;
+    margin: auto;    
+}
+a:visited, a:active, a:link{
+    text-decoration: none;
+    color: #333;
+}
+ul{padding-left: 2.5rem;}
+h1,h2{margin-bottom: 1rem;}
+
+main section{
+    border-top: solid 2px #666;
+    margin-bottom: 2rem;
+    padding-top: 10px;
+}
+main section:last-child{
+    border-bottom: solid 5px #666;
+    padding-bottom: 10px;
+}
+
+.nav_bar{
+    width: 100%;
+    background-color: #eee;
+    height: 2rem;
+    padding-top: .5rem;
+    font-size: 1rem;
+}
+
+.nav_bar-button{
+    width: calc((100% - 6*1rem) / 7);
+    float: left;
+    text-align: center;
+}
+.nav_bar-button:not(:last-child)
+{
+    margin-right: 1rem;
+}
+.nav_bar-button::after{
+    clear: both;
+}
+
+.contact__wrapper{
+    width: 100%;
+    height: 3rem;
+}
+.contact__wrapper__row{
+    width: 100%;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+.contact__wrapper__row:not(:last-child)
+{
+    margin-bottom: 1rem;
+}
+.contact__wrapper__row__col{
+    width: 30%;
+    float: left;
+}
+.contact__wrapper__row__col:not(:last-child){
+    margin-right: 5%;
+}
+.contact__icon{
+    height: 1.5rem;
+    margin-right: .5rem;
+}
+
+.mail{font-size: 1.1rem;}
+
+.footer-links {
+    width: 100%;
+    height: 4rem;
+    margin-bottom: .5rem;
+}
+
+.footer-links__side{
+    height: 4rem;  
+    width: 50%;
+    float: left;
+    position: relative; 
+}
+.footer-links__side:last-child::after{clear: both;}
+
+.footer-links__side a{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.footer-links__side img{ height: 3rem;}
+
+.footer-date{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 1200px)
+{html{font-size: 90%;}}
+
+@media (max-width: 1040px) {
+    html{font-size: 80%;}
+    body{width: 80%;}
+    .contact__wrapper__row{font-size: 1.2rem;}
+    .contact__icon{height: 1.2rem;}
+    .mail{font-size: 1rem;}
+    .nav_bar-button{width: calc((100%)/7);}
+
+}
+
+@media (max-width:750px) {
+    html{font-size: 60%;}
+    body{width: 90%;}
+    section:not(:last-child){margin-bottom: 1.5rem;}
+    .contact__wrapper{height: 13rem;}
+    .contact__wrapper__row{height: 6.5rem;font-size: 1.5rem;}
+    .contact__wrapper__row:not(:last-child){margin-bottom: .5rem;}
+    .contact__wrapper__row__col{float: none;width: 100%;}
+    .contact__wrapper__row__col:not(:last-child){margin-bottom: .5rem;margin-right: 0;}
+    .mail{font-size: 1.5rem;}
+    .nav_bar{display: none;}
+}
