@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>HTML/CSS CV on Git</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="icon/rs-school_icon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <main>
+            <div class="nav_bar">
+                <a href="#Contact"><div class="nav_bar-button">Contact</div></a>
+                <a href="#Summary"><div class="nav_bar-button">Summary</div></a>
+                <a href="#Skills"><div class="nav_bar-button">Technical Skills</div></a>
+                <a href="#Code"><div class="nav_bar-button">Code Example</div></a>
+                <a href="#Experience"><div class="nav_bar-button">Experience</div></a>
+                <a href="#Education"><div class="nav_bar-button">Education</div></a>
+                <a href="#Language"><div class="nav_bar-button">English Level</div></a>
+            </div>
+            <h1>Giorgi Kurkhuli</h1>
+            <section id="Contact" class="contact">
+                <h2>Contact</h2>
+                <div class="contact__wrapper">
+                    <div class="contact__wrapper__row">
+                        <div class="contact__wrapper__row__col"><img src="icon/location-outline.svg" class="contact__icon" alt=""> Georgia, Sagarejo</div>
+                        <div class="contact__wrapper__row__col"><img src="icon/call-outline.svg" class="contact__icon" alt="">(+995) 597 21 06 11</div>
+                        <div class="contact__wrapper__row__col"><a href="mailto:giorgi.kurkhuli1@gmail.com" class="mail"><img src="icon/mail-open-outline.svg" class="contact__icon" alt="">giorgi.kurkhuli1@gmail.com</a></div>
+                    </div>
+                    <div class="contact__wrapper__row">
+                        <div class="contact__wrapper__row__col"><a href="https://www.linkedin.com/in/kurkhuli-giorgi-0b6530279" target="_blank"><img src="icon/logo-linkedin.svg" class="contact__icon" alt="">LinkedIn</a></div>
+                        <div class="contact__wrapper__row__col"><a href="https://github.com/GKurkhuli" target="_blank"><img src="icon/logo-github.svg" class="contact__icon" alt="">GitHub</a></div>
+                        <div class="contact__wrapper__row__col"><a href="https://www.codewars.com/users/GKurkhuli" target="_blank"><img src="icon/logo-codewars.svg" class="contact__icon" alt="">CodeWars</a></div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="Summary" class="summary">
+                <h2>Summary</h2>
+                <p>As a Bachelor of Computer Engineering, I had to learn both, hardware and software, gaining experience and a deeper 
+                    interest in these fields. Although I don't have working experience in front-end development, since I know several 
+                    programming languages, I'm positive about quickly gaining the necessary skills for the job.
+                </p>
+            </section>
+
+            <section id="Skills" class="skills">
+                <h2>Technical Skills</h2>
+                <p><b>Intermediate</b></p>
+                <ul>
+                    <li>C</li>
+                    <li>C#</li>
+                    <li>MatLab</li>
+                    <li>Verilog</li>
+                </ul>
+                <p><b>Beginner</b></p>
+                <ul>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>VUE.js</li>
+                    <li>SQL</li>
+                    <li>Outsystems</li>
+                </ul>
+            </section>
+            <Section id="Code">
+                <h2>Code Example</h2>
+                <pre>
+        <q>function digPow(n, p){
+            let sum = 0;
+            for(let char of n.toString())
+                sum += Math.pow(Number(char),p++);
+            return (sum % n) ? -1 : sum/n;
+        }</q>
+                </pre>
+            </Section>
+            <Section id="Experience">
+                <h2>Experience</h2>
+                <ul>
+                    <li><p><em>06.2019 - 02.2020</em> — IT Manager At 3Bits</p></li>
+                    <li><p><em>09.2018 - 11.2020</em> — IT Support At San Diego State University in Georgia</p></li>
+                    <li><p><em>10.2016 - 12.2018</em> — IT Manager At Partners For International Development (PFID) in Georgia - Center for Experiential Learning and Research after Archil and Sergo Kobaladze</p></li>
+                </ul>
+            </Section>
+            <section id="Education">
+                <h2>Education</h2>
+                <p>2020 - 2022</p>
+                <p><b>Ilia State University</b></p>
+                <p><em>New materials for Nano electronics and Nano Engineering — Master's Program</em></p>
+                <p>Throughout the course, I studied the basics of quantum mechanics, optics and electronics, principles of Nano-engineering, Nano-electronics, and the influence of crystal cell frames on the characteristics of the material.</p>
+                <ul>
+                    <li>02.2022 - 07.2022 I conducted research for my Masters' Degree at RWTH Aachen University, Institute of Materials in Electrical Engineering 1 (IWE1), Aachen, Germany. The research topic was “Realization of an array of graphene 3D cylindrical architectures", which can possibly be used in plasmon-based quantum computers.</li>
+                </ul>
+
+                <p>2016 - 2020</p>
+                <p><b>San Diego State University</b></p>
+                <p><em>Computer Engineering — Bachelor's Program</em></p>
+                <p>Throughout the course I studied multiple programming languages, computer architecture, designing, building, and implementing logical and electrical circuits.</p>
+                <ul>
+                    <li>As a Senior Design project for Bachelors' Degree my team worked on a “Multi-Profile Abdominal Cavity Diagnostics Simulator”. Using Arduino Pro Micro as a controller, we collected data from air pressure sensors, distributed throughout the MOULAGE, and according to the predetermined symptoms computer program simulated the reaction for further diagnostics. This device could be used as an inexpensive training tool for medical students.</li>
+                </ul>
+            </section>
+            <section id="Language">
+                <h2>Knowledge of English — C1</h2>
+                <p><em>At San Diego State University in Georgia, all lectures were conducted in English, on the other hand, during my Master's studies, all materials were in English and since my stay in Germany, I had to communicate in English as well, I think, <b>I am proficient in this language</b></em></p>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-links">
+                <div class="footer-links__side"><a href="https://github.com/GKurkhuli" target="_blank"><img src="icon/logo-github.svg" alt="GitHub"></a></div>
+                <div class="footer-links__side"><a href="https://rs.school/js-en/" target="_blank"><img src="icon/rs_school_js.svg" alt="RSSchool FN-JS"></a></div>                
+            </div>
+            <p class="footer-date"><em><b>23.11.2023</b></em></p>
+        </footer>
+    </body>
+</html>
